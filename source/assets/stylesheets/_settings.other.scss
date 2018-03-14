@@ -44,17 +44,16 @@ $box-shadow-large:              0 rem(1) rem(24) 0 rgba(0,0,0,.2);
 // $box-shadow-link-hover:        inset 0 -2px 0 0 rgba($color-link, .75);
 
 /* Logo size */
-$site-logo-width:               360px; // Width of the image/element
-$site-logo-height:              360px; // Height of the image/element
-$site-logo-proportion:          .5; // Change the logo proportion in header e.g. .5 will reduce the logo size by half.
-$site-logo-path:                url('https://2018.europe.wordcamp.org/files/2017/10/wceu-18-logo.png'); // Logo image
-// $site-logo-path:                url('https://2017.europe.wordcamp.org/files/2016/11/logo-wceu17-dark-icon.png'); // Logo image
+$site-logo-width:               685px; // Width of the image/element
+$site-logo-height:              300px; // Height of the image/element
+$site-logo-proportion:          .8; // Change the logo proportion in header e.g. .5 will reduce the logo size by half.
+$site-logo-path:                url('https://2018.hamilton.wordcamp.org/files/2018/03/2018_HWC_Logo.png'); // Logo image
 
 /* Hero */
 $site-hero-path-pattern:        url('https://2018.europe.wordcamp.org/files/2017/10/pattern-01.png'); // Background patterns
-$site-hero-path-small:          url('https://2018.europe.wordcamp.org/files/2017/11/header-wceu18-hero-mobile.jpg'); // Background image
-$site-hero-path-large:          url('https://2018.europe.wordcamp.org/files/2017/11/header-wceu18-hero-desktop.jpg'); // Background image
-$site-hero-path-wide:           url('https://2018.europe.wordcamp.org/files/2017/11/header-wceu18-hero-desktop-wide.jpg'); // Background image
+$site-hero-path-small:          url('https://2018.hamilton.wordcamp.org/files/2018/03/2018_HWC_Website_HomePage_Hero_img.jpg'); // Background image
+$site-hero-path-large:          url('https://2018.hamilton.wordcamp.org/files/2018/03/2018_HWC_Website_HomePage_Hero_img.jpg'); // Background image
+$site-hero-path-wide:           url('https://2018.hamilton.wordcamp.org/files/2018/03/2018_HWC_Website_HomePage_Hero_img.jpg'); // Background image
 $site-hero-background:          $color-brand-quaternary; // Hero color background
 $site-hero-overlay:             0; // Image overlay color opacity
 

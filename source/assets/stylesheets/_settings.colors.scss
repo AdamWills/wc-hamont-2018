@@ -214,11 +214,10 @@
 
 /* Brand */
 
-$color-brand-primary:             #5566C3; // Blue
-$color-brand-secondary:           #F95758; // Red
-$color-brand-tertiary:            #EFDC39; // Yellow
-$color-brand-quaternary:          #282409; // Black
-// $color-brand-quinary:             #fff; //
+$color-brand-primary:             #F2AF2C; // Yellow
+$color-brand-secondary:           #8F3D94; // Purple
+$color-brand-tertiary:            #21A5E8; // Blue
+$color-brand-quaternary:          #0A0B09; // Black
 
 @include cc($color-brand-primary, 'color-brand-primary');
 @include cc($color-brand-secondary, 'color-brand-secondary');
@@ -231,9 +230,9 @@ $color-brand-quaternary:          #282409; // Black
  * Text
  */
 
-$color-text:                      rgba(0,0,0,.75);
-$color-text-weak:                 rgba(0,0,0,.6);
-$color-text-strong:               rgba(0,0,0,.9);
+$color-text:                      rgba($color-brand-quaternary,0.75);
+$color-text-weak:                 rgba($color-brand-quaternary, 0.6);
+$color-text-strong:               rgba($color-brand-quaternary, 0.9);
 $color-text-invert:               rgba(255,255,255,.75);
 $color-text-weak-invert:          rgba(255,255,255,.6);
 $color-text-strong-invert:        rgba(255,255,255,.9);

@@ -61,3 +61,20 @@
   }
 
 }
+
+// Customization for Hamilton!
+.custom-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  height: 550px;
+
+  img {
+    margin-bottom: 0;
+    width: 600px;
+  }
+}
+
+.site-branding {
+  display: none;
+}

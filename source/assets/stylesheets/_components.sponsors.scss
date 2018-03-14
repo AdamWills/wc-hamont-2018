@@ -222,3 +222,26 @@
   display: none!important;
 
 }
+
+.page-slug-sponsors #content {
+	max-width: 100% !important;
+}
+
+.wcorg-sponsor .wcorg-sponsor-description p,
+.wcorg-sponsor .wcorg-sponsor-description ul,
+.wcorg-sponsor .wcorg-sponsor-description div {
+	display: none;
+}
+
+.wcorg-sponsors>div h2:before {
+	border-top: 3px solid $color-brand-primary !important;
+}
+
+.wcorg-sponsors>div h2:after {
+	border-top: 3px solid #fff !important;
+}
+
+.wcorg-sponsor img {
+	margin: 0 30px !important;
+	max-height: 7.75rem !important;
+}

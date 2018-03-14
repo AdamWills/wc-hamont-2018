@@ -1,6 +1,6 @@
-# WordCamp Europe 2018
+# WordCamp Hamilton 2018
 
-Style guide for the WordCamp Europe 2018 theme
+Style guide for the WordCamp Hamilton 2018 theme
 
 ## Style guide
 
@@ -23,8 +23,8 @@ WordCamp header. Read more about [colors](section-1.html#kssref-1-colors) and [f
 
 <header id="masthead" class="site-header" role="banner">
   <div class="site-branding">
-    <p class="site-title"><a href="#" rel="home">WordCamp Europe 2018</a></p>
-    <p class="site-description">June 14-16, Belgrade, Serbia | #WCEU</p>
+    <p class="site-title"><a href="#" rel="home">WordCamp Hamilton 2018</a></p>
+    <p class="site-description">June 2, Hamilton, Ontario, Canada | #wchamont</p>
   </div><!-- .site-branding -->
   <!-- #site-navigation -->
 </header><!-- #masthead -->
