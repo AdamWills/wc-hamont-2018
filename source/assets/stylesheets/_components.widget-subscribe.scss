@@ -15,15 +15,16 @@
 
   &:before {
 
-    background: $color-brand-quaternary $site-hero-path-pattern repeat 50% 50%;
-    background-size: 300px 300px;
-    background-attachment: fixed;
+//    background: $color-brand-quaternary $site-hero-path-pattern repeat 50% 50%;
+//    background-size: 300px 300px;
+//    background-attachment: fixed;
+    background-color: $color-brand-quaternary;
 
   }
 
   .widget-title {
 
-    color: $color-brand-secondary;
+    color: $color-brand-primary;
   }
 
   p {
