@@ -76,7 +76,7 @@
 
   // @include responsive-spacing(1.5);
 
-  padding: ($container-unit-small * 1.5) $container-unit-small;
+  padding: ($container-unit-small * 1.5) $container-unit-small 0;
 
   @include breakpoint(medium) {
 

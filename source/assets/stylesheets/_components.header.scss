@@ -68,11 +68,26 @@
 	justify-content: center;
 	align-items: center;
   height: 550px;
+  margin-top: 47px;
 
   img {
     margin-bottom: 0;
     width: 600px;
   }
+
+    &:before {
+      content: 'Coming June 2 - Tickets on sale soon!';
+      color: $color-brand-quaternary;
+      position: absolute;
+      top: -47px;
+      background: $color-brand-primary;
+      width: 100%;
+      text-align: center;
+      padding: 0.5rem 0;
+      font-weight: 600;
+      height: 47px;
+      box-sizing: border-box;
+    }
 }
 
 .site-branding {
