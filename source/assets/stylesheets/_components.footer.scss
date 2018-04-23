@@ -99,17 +99,21 @@
 	margin-top: 40px;
 	}
 
+.sponsor-level-title {
+	margin-bottom: 30px;
+	}
+
 .wcb_widget_sponsors {
 	.sponsor-logo {
-		display: inline-block;
-		padding-bottom: 10px;
-		vertical-align: middle;
+		display: inline-block !important;
+		padding-bottom: 10px !important;
+		vertical-align: middle !important;
 		img {
-			height: auto;
-			max-height: 150px;
-			width: auto;
-			margin: 0 auto;
-			max-width: 220px;
+			width: auto !important;
+			height: auto !important;
+			margin: 0 auto !important;
+			max-width: 220px !important;
+			max-height: 150px !important;
 			}
 		}
 	}
