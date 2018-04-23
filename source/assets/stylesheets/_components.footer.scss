@@ -159,17 +159,28 @@ a.sponsor-logo {
 
 @media only screen and (max-width: 719px) {
 
+	.sponsor-level {
+		margin-top: 30px;
+		}
+
+	.sponsor-level-title {
+		margin-bottom: 10px;
+		}
+
 	.sponsor-level.gold,
 	.sponsor-level.silver,
 	.sponsor-level.bronze,
 	.sponsor-level.escarpment {
 		.sponsor-logo {
 			img {
-				max-width: 100% !important;
+				max-width: 80% !important;
 				}
 			}
 		}
 
+	a.sponsor-logo {
+		margin: 0px 20px;
+		}
 
 
 
