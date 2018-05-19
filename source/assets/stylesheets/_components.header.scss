@@ -66,8 +66,10 @@
 .custom-header {
 	display: flex;
 	justify-content: center;
-	align-items: center;
-  height: 550px;
+  align-items: center;
+  @include breakpoint(medium) {
+    height: 550px;
+  }
 
   img {
     margin-bottom: 0;

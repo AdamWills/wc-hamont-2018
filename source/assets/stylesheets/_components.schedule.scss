@@ -11,7 +11,7 @@
 
 .wcpt-schedule {
 
-  border: rem(4) solid $color-brand-secondary;
+  border: rem(4) solid $color-brand-quaternary;
   margin-bottom: $unit-default;
   background-color: #fff;
 
@@ -27,8 +27,8 @@
   .wcpt-col-track {
 
     border-top: none;
-    background-color: $color-brand-tertiary;
-    color: $color-text-strong-invert;
+    background-color: $color-brand-primary;
+    color: $color-text-strong;
 
   }
 
@@ -129,7 +129,7 @@
     &.morning-break,
     &.afternoon-break {
 
-      background-color: $color-brand-secondary;
+      background-color: $color-brand-tertiary;
 
     }
 
